@@ -1,0 +1,100 @@
+body {
+    background-image: url(images/full-landing-page.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  }
+
+.logo {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    height: 100px;
+}
+
+.title {
+    font-family: 'Secular One', verdana, sans-serif;
+    font-size: 7em;
+    color: black;
+}
+
+.sub-title {
+    font-family: 'Secular One', verdana, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    color: black;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 15% 15%;
+    padding: 30px;
+    border-radius: 12px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 12em;
+
+}
+
+h3 {
+    margin-top: 0%;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(135, 63, 14);
+    margin: 0 1rem;
+    justify-content: baseline;
+}
+
+a:hover {
+    color: #C7647B;
+    }
+
+.disclaimer {
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    text-decoration: none;
+    font-size: small;
+    color: black;
+    background-color: rgb(247, 225, 188);
+    padding: 5px ;
+    padding: 5px 8px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    font-size: 1rem;
+}
+
+.credit {
+    text-decoration: none;
+    color: inherit;
+}

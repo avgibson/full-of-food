@@ -1,0 +1,50 @@
+.logo {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    height: 100px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+img {
+    display: block;
+    height: 80%;
+    
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.label {
+    position: relative;
+    align-self: baseline;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    font-size: 1rem;
+}
+
+footer a {
+    display: inline-block;
+
+}

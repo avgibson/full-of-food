@@ -1,0 +1,19 @@
+.logo {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    height: 100px;
+}
+
+.container1 {
+    background-image: url(images/sushibowl-square.png);
+    width: 200px;
+    height: 200px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
