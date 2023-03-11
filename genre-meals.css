@@ -46,6 +46,7 @@ div {
 
 .recipe-photo {
     border-radius: 12px;
+    object-fit: contain;
 }
 
 .label {
