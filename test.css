@@ -4,7 +4,7 @@ body {
     font-size: 1rem;
   }
 
-  header {
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,6 +44,10 @@ a:hover {
     height: 50px;
 }
 
+.title {
+    background-color: bisque;
+}
+
 .total {
     display: flex;
     flex-direction: row;
@@ -54,11 +58,12 @@ a:hover {
     background-color: rgb(191, 211, 249);
     display: flex;
     flex-direction: column;
-
+    padding-right: 20px;
 }
 
 .item2 {
     background-color: rgb(250, 204, 188);
+    padding-right: 20px;
 }
 
 .item3 {
@@ -76,12 +81,34 @@ div img {
     height: 500px;   
 }
 
+.minirecipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.steps {
+    background-color: white;
+    border-radius: 12px;
+    margin: 15px;
+    padding: 0 10px;
+}
+
+/* this is for the "+" sign from Google Fonts */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 /* Dropdown Button */
 .dropbtn {
     background-color: white;
     color: black;
     padding: 10px;
-    font-size: 16px;
     border: none;
   }
   
