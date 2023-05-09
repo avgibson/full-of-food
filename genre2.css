@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Start of CSS for header only */
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+header div {
+    display: inline-block;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    background-color: red;
+}
+
+.extra {
+    height: 60px;
+}
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: none;
+    margin-left: -10px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: grey;}
+
+
+  .dropdown a:hover {
+    color: #C7647B;
+    text-decoration: underline;
+    }
+
+
+  /* Start of CSS for main content of page */
+  #gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 55px;
+  }
+  
+
+  .link {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+  }
+
+
+  img {
+    object-fit: cover;
+    width: 300px;
+  }
+
+  .label {
+    font-size: 1.6em;
+    color: white;
+    background-color: rgba(233, 158, 79, 0.8);
+    padding: 3px 0px 8px 15px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+  }
+
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+  color: rgb(110, 110, 112);
+  position: fixed;
+  bottom: -18px;
+  right: 5px;
+
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a:hover .label {
+  color: #2f3e5d;
+}
